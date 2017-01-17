@@ -1,8 +1,10 @@
 resources:
   - name: selenium-pl
     type: image
-    integration: docker-integration
-
+    integration: Amazon-DEV
+    pointer:
+      sourceName: "680976004409.dkr.ecr.us-east-1.amazonaws.com/selenium"
+      isPull: false
     seed:
       versionName: "selenium-py.8"
 
@@ -14,7 +16,7 @@ resources:
 
   - name: selenium
     type: cluster
-    integration: Amazon-Dev
+    integration: Amazon-DEV
     pointer:
       sourceName : "selenium" #name of the cluster to which we are deploying
       region: "us-east-1c"
