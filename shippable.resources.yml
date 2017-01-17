@@ -1,5 +1,5 @@
 resources:
-  - name: selenium-pl
+  - name: selenium-conf_master
     type: image
     integration: Amazon-DEV
     pointer:

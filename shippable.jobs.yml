@@ -2,7 +2,7 @@ jobs:
   - name: selenium-manifest
     type: manifest
     steps:
-     - IN: selenium-pl
+     - IN: selenium-conf_master
      - TASK: managed
 
   - name: selenium-deploy
