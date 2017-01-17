@@ -10,6 +10,6 @@ jobs:
     steps:
       - IN: selenium-manifest
       - IN: docker-opts
-      - IN: selenium
+      
       - TASK: managed
         deployMethod: upgrade
