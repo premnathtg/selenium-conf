@@ -5,7 +5,7 @@ jobs:
      - IN: selenium-pl
      - TASK: managed
 
-  - name: selenium-pl
+  - name: selenium-deploy
     type: deploy
     steps:
       - IN: selenium-manifest
