@@ -1,5 +1,5 @@
 resources:
-  - name: selenium_master
+  - name: selenium-pl
     type: image
     integration: docker-integration
 
