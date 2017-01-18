@@ -3,6 +3,7 @@ jobs:
     type: manifest
     steps:
      - IN: selenium-img-1
+     - IN: selenium-img-2
      - TASK: managed
 
   - name: selenium-deploy
