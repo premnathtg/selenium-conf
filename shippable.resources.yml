@@ -1,5 +1,5 @@
 resources:
-  - name: selenium-img
+  - name: selenium-img-1
     type: image
     integration: Amazon-DEV
     pointer:
