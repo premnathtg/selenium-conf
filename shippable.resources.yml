@@ -1,7 +1,7 @@
 resources:
   - name: selenium-img
     type: image
-    integration: Amazon-ecr
+    integration: Amazon-DEV
     pointer:
       sourceName: "680976004409.dkr.ecr.us-east-1.amazonaws.com/selenium"
       isPull: false
@@ -16,7 +16,7 @@ resources:
 
   - name: selenium
     type: cluster
-    integration: Amazon-DEV
+    integration: az-ecs
     pointer:
       sourceName : "selenium" #name of the cluster to which we are deploying
       region: "us-east-1"
