@@ -2,8 +2,8 @@ jobs:
   - name: selenium-manifest
     type: manifest
     steps:
-     - IN: selenium-img-one
-     - IN: selenium-img-two
+     - IN: selenium-python
+     - IN: selenium-test
      - TASK: managed
 
   - name: selenium-deploy
