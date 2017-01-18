@@ -1,7 +1,7 @@
 resources:
   - name: selenium-img
     type: image
-    integration: Amazon-DEV
+    integration: Amazon-ecr
     pointer:
       sourceName: "680976004409.dkr.ecr.us-east-1.amazonaws.com/selenium"
       isPull: false
