@@ -22,6 +22,10 @@ resources:
     version:
       portMappings:
         - 80:80
+    links:
+        - selenium-python
+        - selenium-test
+
         
   - name: selenium
     type: cluster
