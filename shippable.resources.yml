@@ -1,5 +1,5 @@
 resources:
-  - name: selenium-img-1
+  - name: selenium-img-one
     type: image
     integration: Amazon-DEV
     pointer:
@@ -8,7 +8,7 @@ resources:
     seed:
       versionName: "selenium-py.8"
       
-  - name: selenium-img-2
+  - name: selenium-img-two
     type: image
     integration: Amazon-DEV
     pointer:
